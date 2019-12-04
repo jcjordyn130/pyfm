@@ -1,0 +1,7 @@
+[associations]
+    "audio/.*" = "mpv {file}"
+    "video/.*" = "mpv {file}"
+    "application/.*" = "{file}"
+    "image/.*" = "eom {file}"
+    "application/font-.*" = "echo is a font"
+    ".*" = "{file}"
